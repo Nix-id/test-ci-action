@@ -1,0 +1,10 @@
+name: flow1
+on: workflow_dispatch
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "Hi"
+      - name: pring bye
+        run: echo "bye"
